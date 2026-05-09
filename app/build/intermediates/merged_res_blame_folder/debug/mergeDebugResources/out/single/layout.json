@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.onlinestatusmonitor.app-mergeDebugResources-59:/layout/item_log.xml",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/item_log.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-mergeDebugResources-59:/layout/activity_settings.xml",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-mergeDebugResources-59:/layout/dialog_add_number.xml",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/dialog_add_number.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-mergeDebugResources-59:/layout/item_number.xml",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/item_number.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-mergeDebugResources-59:/layout/activity_main.xml",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-mergeDebugResources-59:/layout/fragment_dashboard.xml",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/fragment_dashboard.xml"
+    }
+]

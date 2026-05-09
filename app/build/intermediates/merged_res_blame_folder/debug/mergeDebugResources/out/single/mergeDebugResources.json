@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/drawable_bg_cyber_gradient.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/drawable/bg_cyber_gradient.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/drawable_ic_launcher.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/layout_fragment_dashboard.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/drawable_status_dot_offline.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/drawable/status_dot_offline.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/navigation_nav_graph.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/layout_activity_settings.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/drawable_status_dot_online.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/drawable/status_dot_online.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/xml_backup_rules.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/menu_menu_main.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/layout_dialog_add_number.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/dialog_add_number.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/drawable_ic_launcher_round.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/drawable/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/layout_item_number.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/item_number.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/xml_preferences.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/layout_item_log.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/item_log.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/xml_data_extraction_rules.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.onlinestatusmonitor.app-debug-60:/layout_activity_main.xml.flat",
+        "source": "com.onlinestatusmonitor.app-main-62:/layout/activity_main.xml"
+    }
+]

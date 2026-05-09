@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple round variant; Android will clip as needed -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="6dp">
+    <drawable android:drawable="@drawable/ic_launcher" />
+</inset>
+

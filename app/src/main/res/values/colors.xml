@@ -1,0 +1,15 @@
+<resources>
+    <!-- Futuristic cyber palette -->
+    <color name="cyber_bg">#0B0F18</color>
+    <color name="cyber_bg_2">#0F1A2B</color>
+    <color name="cyber_surface">#141B2E</color>
+    <color name="cyber_surface_2">#1B2640</color>
+    <color name="cyber_primary">#00E5FF</color>
+    <color name="cyber_secondary">#B300FF</color>
+    <color name="cyber_success">#00FF9A</color>
+    <color name="cyber_warning">#FFB300</color>
+    <color name="cyber_error">#FF3D71</color>
+    <color name="cyber_text">#E6F1FF</color>
+    <color name="cyber_text_muted">#9DB2CE</color>
+</resources>
+

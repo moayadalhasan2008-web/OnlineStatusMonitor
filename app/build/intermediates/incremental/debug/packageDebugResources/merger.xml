@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3" xmlns:ns1="http://schemas.android.com/tools"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res"><file name="nav_graph" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/navigation/nav_graph.xml" qualifiers="" type="navigation"/><file path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">Online Status Monitor</string><string name="action_start_monitoring">Start Monitoring</string><string name="action_stop_monitoring">Stop Monitoring</string><string name="action_add_number">Add Number</string><string name="action_settings">Settings</string><string name="monitoring_active">Monitoring active</string><string name="monitoring_stopped">Monitoring stopped</string><string name="notif_channel_monitoring">Monitoring</string><string name="notif_channel_alerts">Online Alerts</string><string name="notif_monitoring_title">Online Status Monitor</string><string name="notif_monitoring_text">Monitoring numbers in real time (simulated)</string><string name="notif_online_title">%1$s is ONLINE</string><string name="notif_online_text">Tap to open dashboard</string><string name="dashboard_title">Dashboard</string><string name="dashboard_stats">Statistics</string><string name="dashboard_numbers">Monitored Numbers</string><string name="dashboard_activity_log">Live Activity Log</string><string name="stat_total_online">Total online</string><string name="stat_total_offline">Total offline</string><string name="stat_last_active">Last active</string><string name="dialog_add_number_title">Monitor a number</string><string name="hint_phone_number">Phone number</string><string name="btn_add">Add</string><string name="btn_cancel">Cancel</string><string name="pref_title_appearance">Appearance</string><string name="pref_dark_mode">Dark / Light mode</string><string name="pref_title_alerts">Alerts</string><string name="pref_notifications">Notifications</string><string name="pref_alarm">Alarm sound</string><string name="pref_vibration">Vibration</string></file><file path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/values/themes.xml" qualifiers=""><style name="Theme.OnlineStatusMonitor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cyber_primary</item>
+        <item name="colorPrimaryVariant">@color/cyber_primary</item>
+        <item name="colorOnPrimary">@color/cyber_bg</item>
+
+        <item name="colorSecondary">@color/cyber_secondary</item>
+        <item name="colorSecondaryVariant">@color/cyber_secondary</item>
+        <item name="colorOnSecondary">@color/cyber_text</item>
+
+        <item name="android:statusBarColor">@color/cyber_bg</item>
+        <item name="android:navigationBarColor">@color/cyber_bg</item>
+
+        <item name="android:windowBackground">@drawable/bg_cyber_gradient</item>
+        <item name="android:textColorPrimary">@color/cyber_text</item>
+        <item name="android:textColorSecondary">@color/cyber_text_muted</item>
+        <item name="materialCardViewStyle">@style/Widget.OnlineStatusMonitor.CyberCard</item>
+
+        <item name="textInputStyle">@style/Widget.OnlineStatusMonitor.CyberTextInput</item>
+        <item name="buttonStyle">@style/Widget.OnlineStatusMonitor.CyberButton</item>
+        <item name="toolbarStyle">@style/Widget.OnlineStatusMonitor.CyberToolbar</item>
+
+        
+        <item name="colorControlHighlight">@color/cyber_primary</item>
+        <item name="colorControlActivated">@color/cyber_primary</item>
+
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+    </style><style name="Theme.OnlineStatusMonitor.NoActionBar" parent="Theme.OnlineStatusMonitor">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style><style name="Widget.OnlineStatusMonitor.CyberToolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/cyber_bg</item>
+        <item name="titleTextColor">@color/cyber_text</item>
+        <item name="subtitleTextColor">@color/cyber_text_muted</item>
+    </style><style name="Widget.OnlineStatusMonitor.CyberCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cyber_surface</item>
+        <item name="cardCornerRadius">18dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="strokeColor">@color/cyber_primary</item>
+        <item name="strokeWidth">1dp</item>
+    </style><style name="Widget.OnlineStatusMonitor.CyberButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/cyber_bg</item>
+        <item name="backgroundTint">@color/cyber_primary</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:insetTop">10dp</item>
+        <item name="android:insetBottom">10dp</item>
+    </style><style name="Widget.OnlineStatusMonitor.CyberTextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/cyber_primary</item>
+        <item name="boxBackgroundColor">@color/cyber_surface</item>
+        <item name="hintTextColor">@color/cyber_text_muted</item>
+        <item name="android:textColorHint">@color/cyber_text_muted</item>
+    </style></file><file path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/values/colors.xml" qualifiers=""><color name="cyber_bg">#0B0F18</color><color name="cyber_bg_2">#0F1A2B</color><color name="cyber_surface">#141B2E</color><color name="cyber_surface_2">#1B2640</color><color name="cyber_primary">#00E5FF</color><color name="cyber_secondary">#B300FF</color><color name="cyber_success">#00FF9A</color><color name="cyber_warning">#FFB300</color><color name="cyber_error">#FF3D71</color><color name="cyber_text">#E6F1FF</color><color name="cyber_text_muted">#9DB2CE</color></file><file path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/values/ids.xml" qualifiers=""/><file name="ic_launcher" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/drawable/ic_launcher.xml" qualifiers="" type="drawable"/><file name="ic_launcher_round" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/drawable/ic_launcher_round.xml" qualifiers="" type="drawable"/><file name="status_dot_offline" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/drawable/status_dot_offline.xml" qualifiers="" type="drawable"/><file name="bg_cyber_gradient" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/drawable/bg_cyber_gradient.xml" qualifiers="" type="drawable"/><file name="status_dot_online" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/drawable/status_dot_online.xml" qualifiers="" type="drawable"/><file path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/values-night/themes.xml" qualifiers="night-v8"><style name="Theme.OnlineStatusMonitor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cyber_primary</item>
+        <item name="colorPrimaryVariant">@color/cyber_primary</item>
+        <item name="colorOnPrimary">@color/cyber_bg</item>
+        <item name="colorSecondary">@color/cyber_secondary</item>
+        <item name="colorSecondaryVariant">@color/cyber_secondary</item>
+        <item name="colorOnSecondary">@color/cyber_text</item>
+        <item name="android:statusBarColor">@color/cyber_bg</item>
+        <item name="android:navigationBarColor">@color/cyber_bg</item>
+        <item name="android:windowBackground">@drawable/bg_cyber_gradient</item>
+        <item name="android:textColorPrimary">@color/cyber_text</item>
+        <item name="android:textColorSecondary">@color/cyber_text_muted</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+    </style><style name="Theme.OnlineStatusMonitor.NoActionBar" parent="Theme.OnlineStatusMonitor">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style></file><file name="menu_main" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/menu/menu_main.xml" qualifiers="" type="menu"/><file name="dialog_add_number" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/layout/dialog_add_number.xml" qualifiers="" type="layout"/><file name="activity_settings" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/layout/activity_settings.xml" qualifiers="" type="layout"/><file name="fragment_dashboard" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/layout/fragment_dashboard.xml" qualifiers="" type="layout"/><file name="activity_main" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="item_number" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/layout/item_number.xml" qualifiers="" type="layout"/><file name="item_log" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/layout/item_log.xml" qualifiers="" type="layout"/><file name="backup_rules" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/xml/backup_rules.xml" qualifiers="" type="xml"/><file name="preferences" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/xml/preferences.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/main/res/xml/data_extraction_rules.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/data/data/com.termux/files/home/OnlineStatusMonitor/app/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>

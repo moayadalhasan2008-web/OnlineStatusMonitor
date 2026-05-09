@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <style name="Theme.OnlineStatusMonitor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/cyber_primary</item>
+        <item name="colorPrimaryVariant">@color/cyber_primary</item>
+        <item name="colorOnPrimary">@color/cyber_bg</item>
+        <item name="colorSecondary">@color/cyber_secondary</item>
+        <item name="colorSecondaryVariant">@color/cyber_secondary</item>
+        <item name="colorOnSecondary">@color/cyber_text</item>
+        <item name="android:statusBarColor">@color/cyber_bg</item>
+        <item name="android:navigationBarColor">@color/cyber_bg</item>
+        <item name="android:windowBackground">@drawable/bg_cyber_gradient</item>
+        <item name="android:textColorPrimary">@color/cyber_text</item>
+        <item name="android:textColorSecondary">@color/cyber_text_muted</item>
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+    </style>
+    <style name="Theme.OnlineStatusMonitor.NoActionBar" parent="Theme.OnlineStatusMonitor">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
