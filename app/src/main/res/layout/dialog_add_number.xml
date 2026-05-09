@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+											<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         app:ccp_showFlag="true"
         app:ccp_showFullName="true"
         app:ccp_showNameCode="false"
-        app:ccp_textColor="@color/cyber_text"
+  
         app:ccp_contentColor="@color/cyber_text" />
 
     <com.google.android.material.textfield.TextInputLayout
